@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF44"
+    android:paddingVertical="2dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE ORIENTACIÓN"
+        android:textColor="#CC44FF"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingBottom="2dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AZIMUT"
+        android:textStyle="italic|bold"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="5dp"
+        android:textColor="#CC44FF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="azimut"
+        android:textStyle="bold"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/azimut"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VERTICALIDAD"
+        android:textStyle="italic|bold"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="5dp"
+        android:textColor="#CC44FF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="verticalidad"
+        android:textStyle="bold"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/vertical"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INCLINACIÓN LATERAL"
+        android:textStyle="italic|bold"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="5dp"
+        android:textColor="#CC44FF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lateralidad"
+        android:textStyle="bold"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/lateral"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORIENTACIÓN"
+        android:textStyle="italic|bold"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="5dp"
+        android:textColor="#CC44FF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="orientación"
+        android:textStyle="bold"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="#0000FF"
+        android:textSize="22sp"
+        android:id="@+id/orientacion"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NÚMERO DE LECTURAS"
+        android:textStyle="italic|bold"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="5dp"
+        android:textColor="#CC44FF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cero"
+        android:textStyle="bold"
+        android:paddingHorizontal="8dp"
+        android:paddingBottom="5dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:id="@+id/contador"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"/>
+
+</LinearLayout>
